@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+
+ <body>
+     <div class="start-screen container">
+         <h1>Code Quiz</h1>
+         <p>Answer the questions as quickly as you can before the time runs out!</p>
+         <button id="start-button">Start</button>
+     </div>
+     <div class="timer-box container hide">
+         <p>Time Left - <span id="time-left"></span> <br> <span id ="answerRes"></span></p>
+         <p id="correct-count"></p>
+         <p id="wrong-count"></p>
+     </div>
+     <div id="question-box" class="container">
+
+     </div>
+     <div id="game-over-box" class="hide" >
+         <form>
+             <p>type in your initials to save your score</p>
+             <input id="initials" type="text">
+             <button id="initial-btn">save high score</button>
+         </form>
+     </div>
+
+
+
+
+     <script src="./script.js"></script>
+
+ </body>
